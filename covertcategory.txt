@@ -1,0 +1,8 @@
+SET SQL_SAFE_UPDATES = 0;
+
+update spiderdb.freebuf set category='T' where category='工具';
+update spiderdb.freebuf set category='Z' where category='招聘';
+update spiderdb.freebuf set category='N' where category='资讯';
+update spiderdb.freebuf set category='W' where category='视频';
+update spiderdb.freebuf set category='A' where category='活动';
+update spiderdb.freebuf set category='V' where category='漏洞';
